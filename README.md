@@ -3,7 +3,7 @@
 
 ## Install
 ```bat
-npm install react-native-bottom-drawe --save
+npm install react-native-bottom-drawer --save
 ```
 
 ## Demo
