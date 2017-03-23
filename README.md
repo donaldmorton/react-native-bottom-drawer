@@ -11,21 +11,21 @@ npm install react-native-bottom-drawe --save
 
 ## Basic example
 ```
-               <Drawer
-                  initialDrawerSize={0.10}
-                  onDragDown={this.onDragDown.bind(this)}
-                  renderContainerView={()=><View style={{flex:1}}></View>}
-                  renderHandle={()=><Header></Header>}
-                  renderDrawerView={()=>(
-                  <View style={{height:'100%',backgroundColor:'rgba(0, 0, 0, 0.51)'}}>
-                     <Content>
-                        <List dataArray={items} renderRow={(data) =>
-                              <ListItem>
-                                 <Text>{data}</Text>
-                              </ListItem>
-                           } />
-                        </Content>
-                  </View>)}
-               />
-}
+ <Drawer
+    initialDrawerSize={0.10}
+    onDragDown={this.onDragDown.bind(this)}
+    renderContainerView={()=><View style={{flex:1}}></View>}
+    renderHandle={()=><Header></Header>}
+    renderDrawerView={()=>(
+    <View style={{height:'100%',backgroundColor:'rgba(0, 0, 0, 0.51)'}}>
+       <Content>
+          <List dataArray={items} renderRow={(data) =>
+                <ListItem>
+                   <Text>{data}</Text>
+                </ListItem>
+             } />
+          </Content>
+    </View>)}
+ />
+
 ```
