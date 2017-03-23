@@ -29,3 +29,5 @@ npm install react-native-bottom-drawer --save
  />
 
 ```
+
+Based on [react-native-draggable-drawer](https://www.npmjs.com/package/react-native-draggable-drawer)
